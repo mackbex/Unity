@@ -1,3 +1,6 @@
 [submodule "FPSDefense"]
 	path = FPSDefense
 	url = https://github.com/mackbex/FPSDefense
+[submodule "FPSD"]
+	path = FPSD
+	url = https://github.com/mackbex/Unity
