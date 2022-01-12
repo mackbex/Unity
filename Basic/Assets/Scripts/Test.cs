@@ -1,26 +1,29 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Test : MonoBehaviour
 {
-    private BoxCollider col;
 
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] private Text txt_money;
+    [SerializeField] private InputField input_money;
+
+
+    private int account;
+
+    public void deposit()
     {
-        col = GetComponent<BoxCollider>();
+        account += int.Parse(input_money.text);
+
+        txt_money.text = account.ToString();
     }
 
-    private void OnTriggerStay(Collider other)
+    public void withdraw()
     {
-        other.transform.position += new Vector3(0, 0, 1) * Time.deltaTime;
+        account -= int.Parse(input_money.text);
 
-        Debug.Log(other.transform.position);
+        txt_money.text = account.ToString();
     }
 
-    private void OnTriggerExit(Collider other)
-    {
-        other.transform.position = new Vector3(0, 2, 0);
-    }
 }
