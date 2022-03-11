@@ -1,0 +1,945 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!641289076 &-8755982336097159521
+AudioBuildInfo:
+  m_IsAudioDisabled: 0
+  m_AudioClipCount: 0
+  m_AudioMixerCount: 0
+--- !u!1126 &-5361589198897730794
+PackedAssets:
+  m_File: 4
+  m_ShortPath: CAB-5e6eb37c81bbc766f9d476f7ff79690a
+  m_Overhead: 4096
+  m_Contents:
+  - fileID: 1
+    classID: 142
+    packedSize: 104
+    offset: 4096
+    sourceAssetGUID: 00000000000000000000000000000000
+    buildTimeAssetPath: AssetBundle Object
+  - fileID: 2
+    classID: 290
+    packedSize: 104
+    offset: 4200
+    sourceAssetGUID: 00000000000000000000000000000000
+    buildTimeAssetPath: 'Built-in AssetBundleManifest: AssetBundleManifest'
+--- !u!668709126 &-1423100206982928442
+BuiltAssetBundleInfoSet:
+  bundleInfos:
+  - bundleName: scene-standalonewindows64-basic.vrcw
+    bundleArchiveFile: 2
+    packagedFileIndices: 0000000001000000
+  - bundleName: TomsLand
+    bundleArchiveFile: 5
+    packagedFileIndices: 04000000
+--- !u!1125 &1
+BuildReport:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: LastBuild
+  m_Summary:
+    buildStartTime:
+      serializedVersion: 2
+      ticks: 637808968975823143
+    buildGUID: 00000000000000000000000000000000
+    platformName: Win64
+    platformGroupName: Standalone
+    options: 16
+    assetBundleOptions: 32
+    outputPath: C:/Users/mackb/AppData/Local/Temp/DefaultCompany/TomsLand/scene-standalonewindows64-basic.vrcw
+    crc: 1639730312
+    totalSize: 4523788
+    totalTimeTicks: 0
+    totalErrors: 0
+    totalWarnings: 0
+    buildType: 1
+    buildResult: 1
+  m_Files:
+  - path: G:/UnityStudy/TomsLand/scene-standalonewindows64-basic.vrcw/BuildPlayer-basic
+    role: Scene
+    id: 0
+    totalSize: 126868
+  - path: G:/UnityStudy/TomsLand/scene-standalonewindows64-basic.vrcw/BuildPlayer-basic.sharedAssets
+    role: SharedAssets
+    id: 1
+    totalSize: 16523660
+  - path: G:/UnityStudy/TomsLand/scene-standalonewindows64-basic.vrcw
+    role: AssetBundle
+    id: 2
+    totalSize: 4520900
+  - path: G:/UnityStudy/TomsLand/scene-standalonewindows64-basic.vrcw.manifest
+    role: AssetBundleTextManifest
+    id: 3
+    totalSize: 1673
+  - path: G:/UnityStudy/TomsLand/TomsLand/CAB-5e6eb37c81bbc766f9d476f7ff79690a
+    role: ResourcesFile
+    id: 4
+    totalSize: 4304
+  - path: G:/UnityStudy/TomsLand/TomsLand
+    role: ManifestAssetBundle
+    id: 5
+    totalSize: 1051
+  - path: G:/UnityStudy/TomsLand/TomsLand.manifest
+    role: AssetBundleTextManifest
+    id: 6
+    totalSize: 164
+  m_BuildSteps:
+  - stepName: Build Asset Bundles
+    durationTicks: 94279832
+    depth: 0
+    messages: []
+  - stepName: Calculate asset bundles to be built
+    durationTicks: 139151
+    depth: 1
+    messages: []
+  - stepName: Compile scripts
+    durationTicks: 16374943
+    depth: 1
+    messages: []
+  - stepName: Build player
+    durationTicks: 42293968
+    depth: 1
+    messages: []
+  - stepName: Prepare assets for target platform
+    durationTicks: 1798708
+    depth: 2
+    messages: []
+  - stepName: Building scenes
+    durationTicks: 3259820
+    depth: 2
+    messages: []
+  - stepName: Building scene Assets/Scenes/basic/basic.unity
+    durationTicks: 3247923
+    depth: 3
+    messages: []
+  - stepName: Writing asset files
+    durationTicks: 2110693
+    depth: 2
+    messages: []
+  - stepName: Packaging assets - archive:/BuildPlayer-basic/BuildPlayer-basic.sharedAssets
+    durationTicks: 2078236
+    depth: 3
+    messages: []
+  - stepName: Creating compressed player package
+    durationTicks: 25037578
+    depth: 2
+    messages: []
+  - stepName: Postprocess built player
+    durationTicks: 76412
+    depth: 2
+    messages: []
+  m_Appendices:
+  - {fileID: -1423100206982928442}
+  - {fileID: 4809449136628498398}
+  - {fileID: 8467861471045523258}
+  - {fileID: -8755982336097159521}
+  - {fileID: -5361589198897730794}
+--- !u!1126 &4809449136628498398
+PackedAssets:
+  m_File: 1
+  m_ShortPath: BuildPlayer-basic.sharedAssets
+  m_Overhead: 77875
+  m_Contents:
+  - fileID: 1
+    classID: 150
+    packedSize: 61
+    offset: 78360
+    sourceAssetGUID: 00000000000000000000000000000000
+    buildTimeAssetPath: 
+  - fileID: 2
+    classID: 142
+    packedSize: 152
+    offset: 78424
+    sourceAssetGUID: 00000000000000000000000000000000
+    buildTimeAssetPath: 
+  - fileID: 3
+    classID: 21
+    packedSize: 1064
+    offset: 78576
+    sourceAssetGUID: 2ad85dfe2430c9944a67aabf28740c2d
+    buildTimeAssetPath: Assets/ADG_Textures/ground_vol1/ground1/ground1.mat
+  - fileID: 4
+    classID: 21
+    packedSize: 964
+    offset: 79640
+    sourceAssetGUID: f9add7219a5b60440b1d464521ead527
+    buildTimeAssetPath: Assets/Customizable_Furnture/Source/Materials/AtlasMaterials/PC/Furniture_Atlas_1.mat
+  - fileID: 5
+    classID: 21
+    packedSize: 596
+    offset: 80608
+    sourceAssetGUID: 8202c457dff32486ba5ae1f2f548d983
+    buildTimeAssetPath: Assets/Fantasy Skybox FREE/Materials/Classic/FS000_Night_02.mat
+  - fileID: 6
+    classID: 21
+    packedSize: 892
+    offset: 81208
+    sourceAssetGUID: ac10001fdcf45bf4eba8a09130d69b9a
+    buildTimeAssetPath: Assets/Scenes/basic/Walls.mat
+  - fileID: 7
+    classID: 21
+    packedSize: 1140
+    offset: 82104
+    sourceAssetGUID: c815f7613a04b724089c206857e57c6a
+    buildTimeAssetPath: Assets/VRCSDK/Sample Assets/Materials/MirrorReflection.mat
+  - fileID: 8
+    classID: 28
+    packedSize: 1398240
+    offset: 83248
+    sourceAssetGUID: 2a92ec3b24546c447ae2a5f5da6f3db8
+    buildTimeAssetPath: Assets/ADG_Textures/ground_vol1/ground1/ground1_Height.tga
+  - fileID: 9
+    classID: 28
+    packedSize: 1398232
+    offset: 1481488
+    sourceAssetGUID: 85aa9acd8af30f840ad2d211038dcb31
+    buildTimeAssetPath: Assets/Customizable_Furnture/Source/Textures/PC/Emission
+      Maps/Emission.psd
+  - fileID: 10
+    classID: 28
+    packedSize: 349676
+    offset: 2879720
+    sourceAssetGUID: 88718502cdce7a14bb6740ac4f0c1c79
+    buildTimeAssetPath: Assets/Customizable_Furnture/Source/Textures/PC/Metallic_Smoothness
+      Maps/Atlas1_Metallic_Smoothness.psd
+  - fileID: 11
+    classID: 28
+    packedSize: 1398240
+    offset: 3229400
+    sourceAssetGUID: aeff12fbe9fe2384bae4d1b436607b55
+    buildTimeAssetPath: Assets/ADG_Textures/ground_vol1/ground1/ground1_Normal.tga
+  - fileID: 12
+    classID: 28
+    packedSize: 699188
+    offset: 4627640
+    sourceAssetGUID: c1bc467cfaaedf540b3910d72cb62cb8
+    buildTimeAssetPath: Assets/ADG_Textures/ground_vol1/ground1/ground1_Ambient_Occlusion.tga
+  - fileID: 13
+    classID: 28
+    packedSize: 699176
+    offset: 5326832
+    sourceAssetGUID: eacec9cd0f31ea04b82121877a6cccaa
+    buildTimeAssetPath: Assets/ADG_Textures/ground_vol1/ground1/ground1_Diffuse.tga
+  - fileID: 14
+    classID: 28
+    packedSize: 5592536
+    offset: 6026008
+    sourceAssetGUID: eb63d3598ce943f44ad0eed5f36cec41
+    buildTimeAssetPath: Assets/Customizable_Furnture/Source/Textures/PC/Diffuse_Maps/Atlas_1.psd
+  - fileID: 15
+    classID: 43
+    packedSize: 18460
+    offset: 11618544
+    sourceAssetGUID: 017712edfef1fc741bb2651514915382
+    buildTimeAssetPath: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Blanket_1Type5_Cloth.obj
+  - fileID: 16
+    classID: 43
+    packedSize: 5320
+    offset: 11637008
+    sourceAssetGUID: 02312d27b167ce74baaef641cb2d10e9
+    buildTimeAssetPath: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Matress_1Type13_PLFull.obj
+  - fileID: 17
+    classID: 43
+    packedSize: 20576
+    offset: 11642328
+    sourceAssetGUID: 0df1e1679e37df843a509ad48128a2e1
+    buildTimeAssetPath: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Decoration_1Type14_PLFull.obj
+  - fileID: 18
+    classID: 43
+    packedSize: 5208
+    offset: 11662904
+    sourceAssetGUID: 124fa78be140868499f8765ddc5b7c20
+    buildTimeAssetPath: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Matress_1Type4_Cloth.obj
+  - fileID: 19
+    classID: 43
+    packedSize: 18684
+    offset: 11668112
+    sourceAssetGUID: 138e0b346409516439cd89bae11d4035
+    buildTimeAssetPath: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Blanket_1Type3_PLFull.obj
+  - fileID: 20
+    classID: 43
+    packedSize: 18684
+    offset: 11686800
+    sourceAssetGUID: 1539e19b4c55c6140bd98bd9130252d3
+    buildTimeAssetPath: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Blanket_1Type8_PLFull.obj
+  - fileID: 21
+    classID: 43
+    packedSize: 5208
+    offset: 11705488
+    sourceAssetGUID: 15cfcbba0836a474a933aeb695dcfe79
+    buildTimeAssetPath: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Matress_1Type1_Cloth.obj
+  - fileID: 22
+    classID: 43
+    packedSize: 64164
+    offset: 11710696
+    sourceAssetGUID: 170e9d0e86b38e44181ef144de047806
+    buildTimeAssetPath: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_DecorationExtras_1Type11_PLFull.obj
+  - fileID: 23
+    classID: 43
+    packedSize: 20688
+    offset: 11774864
+    sourceAssetGUID: 1a2f14794dd0c5541b1a7741f95f12ba
+    buildTimeAssetPath: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Decoration_1Type5_Cloth.obj
+  - fileID: 24
+    classID: 43
+    packedSize: 20576
+    offset: 11795552
+    sourceAssetGUID: 1ba9063f65df2e14e8b7e7b038104b7a
+    buildTimeAssetPath: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Decoration_1Type3_PLFull.obj
+  - fileID: 25
+    classID: 43
+    packedSize: 20576
+    offset: 11816128
+    sourceAssetGUID: 1df7714e9081fd9449ecf25c8284f186
+    buildTimeAssetPath: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Decoration_1Type13_PLFull.obj
+  - fileID: 26
+    classID: 43
+    packedSize: 64276
+    offset: 11836704
+    sourceAssetGUID: 238f4185612b85949a828dbabb673594
+    buildTimeAssetPath: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_DecorationExtras_1Type12_PLFull.obj
+  - fileID: 27
+    classID: 43
+    packedSize: 20576
+    offset: 11900984
+    sourceAssetGUID: 23de3abfc2375e24fb9d274e88e8e04a
+    buildTimeAssetPath: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Decoration_1Type4_PLFull.obj
+  - fileID: 28
+    classID: 43
+    packedSize: 5320
+    offset: 11921560
+    sourceAssetGUID: 242746d5fd9c8b14583b6e5779620388
+    buildTimeAssetPath: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Matress_1Type16_PLFull.obj
+  - fileID: 29
+    classID: 43
+    packedSize: 18404
+    offset: 11926880
+    sourceAssetGUID: 26bcd1c509969f844853e8607587ae42
+    buildTimeAssetPath: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Blanket_1Type16_PLFull.obj
+  - fileID: 30
+    classID: 43
+    packedSize: 5320
+    offset: 11945288
+    sourceAssetGUID: 281b52c7e5a741c4980f667bd9026fff
+    buildTimeAssetPath: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Matress_1Type10_PLFull.obj
+  - fileID: 31
+    classID: 43
+    packedSize: 20576
+    offset: 11950608
+    sourceAssetGUID: 2b23547242b38ed4b9d44981879cdaf5
+    buildTimeAssetPath: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Decoration_1Type1_PLFull.obj
+  - fileID: 32
+    classID: 43
+    packedSize: 64332
+    offset: 11971184
+    sourceAssetGUID: 2c8d496ca4298d14c942a0a58efb7687
+    buildTimeAssetPath: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_DecorationExtras_1Type8_PLFull.obj
+  - fileID: 33
+    classID: 43
+    packedSize: 5320
+    offset: 12035520
+    sourceAssetGUID: 2dd49ac36aa51bd498a76e610629602b
+    buildTimeAssetPath: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Matress_1Type2_PLFull.obj
+  - fileID: 34
+    classID: 43
+    packedSize: 5320
+    offset: 12040840
+    sourceAssetGUID: 2fe2845d4d6476d4a852f922c875d7d1
+    buildTimeAssetPath: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Matress_1Type4_PLFull.obj
+  - fileID: 35
+    classID: 43
+    packedSize: 64164
+    offset: 12046160
+    sourceAssetGUID: 30a7db805374b4d4d8dca4ed6bfa5f44
+    buildTimeAssetPath: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_DecorationExtras_1Type10_PLFull.obj
+  - fileID: 36
+    classID: 43
+    packedSize: 5320
+    offset: 12110328
+    sourceAssetGUID: 362b6d987a4646746aaa60829ecab706
+    buildTimeAssetPath: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Matress_1Type9_PLFull.obj
+  - fileID: 37
+    classID: 43
+    packedSize: 65452
+    offset: 12115648
+    sourceAssetGUID: 36a8d2af7062f1a4686455f504584756
+    buildTimeAssetPath: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_DecorationExtras_1Type3_PLFull.obj
+  - fileID: 38
+    classID: 43
+    packedSize: 64724
+    offset: 12181104
+    sourceAssetGUID: 3c25bf6005b6be34cafbb93158809625
+    buildTimeAssetPath: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_DecorationExtras_1Type6_PLFull.obj
+  - fileID: 39
+    classID: 43
+    packedSize: 20576
+    offset: 12245832
+    sourceAssetGUID: 44f3dc1654c94764fb11125885affe96
+    buildTimeAssetPath: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Decoration_1Type6_PLFull.obj
+  - fileID: 40
+    classID: 43
+    packedSize: 5320
+    offset: 12266408
+    sourceAssetGUID: 4540429e2a046f04c9b9b51a48771dc1
+    buildTimeAssetPath: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Matress_1Type3_PLFull.obj
+  - fileID: 41
+    classID: 43
+    packedSize: 5208
+    offset: 12271728
+    sourceAssetGUID: 4a6808e5ab0b5aa4284bb3e679d6aff7
+    buildTimeAssetPath: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Matress_1Type3_Cloth.obj
+  - fileID: 42
+    classID: 43
+    packedSize: 65452
+    offset: 12276936
+    sourceAssetGUID: 4abb5a92d28ffe94ab76374fee7508c1
+    buildTimeAssetPath: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_DecorationExtras_1Type5_PLFull.obj
+  - fileID: 43
+    classID: 43
+    packedSize: 20688
+    offset: 12342392
+    sourceAssetGUID: 4d7c7d2e2b4486546aaffa07ea29a5f2
+    buildTimeAssetPath: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Decoration_1Type7_Cloth.obj
+  - fileID: 44
+    classID: 43
+    packedSize: 18684
+    offset: 12363080
+    sourceAssetGUID: 4dcf6d755b36ea849a7aac88902e4efb
+    buildTimeAssetPath: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Blanket_1Type7_PLFull.obj
+  - fileID: 45
+    classID: 43
+    packedSize: 20576
+    offset: 12381768
+    sourceAssetGUID: 4ddc11ffde4c2c646875aaa68583a53a
+    buildTimeAssetPath: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Decoration_1Type12_PLFull.obj
+  - fileID: 46
+    classID: 43
+    packedSize: 5320
+    offset: 12402344
+    sourceAssetGUID: 4de79e786fc362d42a3ce7ee1ec024a2
+    buildTimeAssetPath: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Matress_1Type5_PLFull.obj
+  - fileID: 47
+    classID: 43
+    packedSize: 64220
+    offset: 12407664
+    sourceAssetGUID: 54087caee2f5870469271cf5303e1c84
+    buildTimeAssetPath: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_DecorationExtras_1Type9_PLFull.obj
+  - fileID: 48
+    classID: 43
+    packedSize: 64668
+    offset: 12471888
+    sourceAssetGUID: 55cc9e759d3032b48aa5e5a028de8883
+    buildTimeAssetPath: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_DecorationExtras_1Type14_PLFull.obj
+  - fileID: 49
+    classID: 43
+    packedSize: 5208
+    offset: 12536560
+    sourceAssetGUID: 585aa75c05d79dd49a597c2f14b83407
+    buildTimeAssetPath: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Matress_1Type5_Cloth.obj
+  - fileID: 50
+    classID: 43
+    packedSize: 17956
+    offset: 12541768
+    sourceAssetGUID: 58e8aa2705434d04aac132ed831f6ca4
+    buildTimeAssetPath: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Blanket_1Type3_Cloth.obj
+  - fileID: 51
+    classID: 43
+    packedSize: 20576
+    offset: 12559728
+    sourceAssetGUID: 5bb65d06e3ad087408959ce446782954
+    buildTimeAssetPath: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Decoration_1Type9_PLFull.obj
+  - fileID: 52
+    classID: 43
+    packedSize: 18404
+    offset: 12580304
+    sourceAssetGUID: 63e1e78e9e1f1164694e3dbebe9c84b7
+    buildTimeAssetPath: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Blanket_1Type10_PLFull.obj
+  - fileID: 53
+    classID: 43
+    packedSize: 20576
+    offset: 12598712
+    sourceAssetGUID: 69b204b6e4a810f4e894812321fffdd9
+    buildTimeAssetPath: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Decoration_1Type16_PLFull.obj
+  - fileID: 54
+    classID: 43
+    packedSize: 5208
+    offset: 12619288
+    sourceAssetGUID: 70af47c8a3c09b44cb99dabfdb0bf194
+    buildTimeAssetPath: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Matress_1Type8_Cloth.obj
+  - fileID: 55
+    classID: 43
+    packedSize: 20576
+    offset: 12624496
+    sourceAssetGUID: 70b0ecc5c27f4d94a98af7cb560bf6a2
+    buildTimeAssetPath: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Decoration_1Type2_PLFull.obj
+  - fileID: 56
+    classID: 43
+    packedSize: 65228
+    offset: 12645072
+    sourceAssetGUID: 72068f6299e45574d90ecfdac39c2aaf
+    buildTimeAssetPath: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_DecorationExtras_1Type7_Cloth.obj
+  - fileID: 57
+    classID: 43
+    packedSize: 64276
+    offset: 12710304
+    sourceAssetGUID: 74f849dfc273bbe49b0650c499724186
+    buildTimeAssetPath: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_DecorationExtras_1Type4_Cloth.obj
+  - fileID: 58
+    classID: 43
+    packedSize: 65900
+    offset: 12774584
+    sourceAssetGUID: 75a1d7cc62e3ef1498aca6e8e97eb0ba
+    buildTimeAssetPath: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_DecorationExtras_1Type2_Cloth.obj
+  - fileID: 59
+    classID: 43
+    packedSize: 20576
+    offset: 12840488
+    sourceAssetGUID: 781b107f73849c6479ea93716382deb6
+    buildTimeAssetPath: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Decoration_1Type15_PLFull.obj
+  - fileID: 60
+    classID: 43
+    packedSize: 65172
+    offset: 12861064
+    sourceAssetGUID: 78a5bb5fa7258914e81815f9ead39d7b
+    buildTimeAssetPath: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_DecorationExtras_1Type16_PLFull.obj
+  - fileID: 61
+    classID: 43
+    packedSize: 20688
+    offset: 12926240
+    sourceAssetGUID: 78b0a97946d679d40b7c08e08f79ba0c
+    buildTimeAssetPath: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Decoration_1Type4_Cloth.obj
+  - fileID: 62
+    classID: 43
+    packedSize: 5320
+    offset: 12946928
+    sourceAssetGUID: 79557fb320eb8f64e8f7f8de0772ccac
+    buildTimeAssetPath: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Matress_1Type15_PLFull.obj
+  - fileID: 63
+    classID: 43
+    packedSize: 18684
+    offset: 12952248
+    sourceAssetGUID: 7cccf7a4be17c4440a38d403958aaac1
+    buildTimeAssetPath: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Blanket_1Type5_PLFull.obj
+  - fileID: 64
+    classID: 43
+    packedSize: 18404
+    offset: 12970936
+    sourceAssetGUID: 7db796069ba8c4f45a724af3dc5654eb
+    buildTimeAssetPath: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Blanket_1Type11_PLFull.obj
+  - fileID: 65
+    classID: 43
+    packedSize: 17564
+    offset: 12989344
+    sourceAssetGUID: 857b4d77f4303e84a9d306ac14678ee8
+    buildTimeAssetPath: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Blanket_1Type2_Cloth.obj
+  - fileID: 66
+    classID: 43
+    packedSize: 20576
+    offset: 13006912
+    sourceAssetGUID: 86ec808cf8de9be40bc6ec80b68cb1a0
+    buildTimeAssetPath: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Decoration_1Type10_PLFull.obj
+  - fileID: 67
+    classID: 43
+    packedSize: 20688
+    offset: 13027488
+    sourceAssetGUID: 874e0139b61896447905e67f113ec3ae
+    buildTimeAssetPath: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Decoration_1Type8_Cloth.obj
+  - fileID: 68
+    classID: 43
+    packedSize: 65452
+    offset: 13048176
+    sourceAssetGUID: 91f847a1d3e0db045ad45cae39456e63
+    buildTimeAssetPath: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_DecorationExtras_1Type1_PLFull.obj
+  - fileID: 69
+    classID: 43
+    packedSize: 5208
+    offset: 13113632
+    sourceAssetGUID: 94a577b6bde716d48a9614eff6c37cc5
+    buildTimeAssetPath: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Matress_1Type7_Cloth.obj
+  - fileID: 70
+    classID: 43
+    packedSize: 20576
+    offset: 13118840
+    sourceAssetGUID: 985c795294f946b48b8c656759ef0039
+    buildTimeAssetPath: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Decoration_1Type7_PLFull.obj
+  - fileID: 71
+    classID: 43
+    packedSize: 64668
+    offset: 13139416
+    sourceAssetGUID: a292c32b1c339d341b0e20dab2ef5392
+    buildTimeAssetPath: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_DecorationExtras_1Type15_PLFull.obj
+  - fileID: 72
+    classID: 43
+    packedSize: 64500
+    offset: 13204088
+    sourceAssetGUID: a3300886438d087468d1f8dfa3752035
+    buildTimeAssetPath: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_DecorationExtras_1Type6_Cloth.obj
+  - fileID: 73
+    classID: 43
+    packedSize: 18404
+    offset: 13268592
+    sourceAssetGUID: a3ab64902f14c9c4da2a00ec38ccd00e
+    buildTimeAssetPath: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Blanket_1Type14_PLFull.obj
+  - fileID: 74
+    classID: 43
+    packedSize: 5320
+    offset: 13287000
+    sourceAssetGUID: a85756cf1d62cca4b92162587fb0fac0
+    buildTimeAssetPath: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Matress_1Type6_PLFull.obj
+  - fileID: 75
+    classID: 43
+    packedSize: 18068
+    offset: 13292320
+    sourceAssetGUID: a9c0748d72bbcce4eac310e57338cc94
+    buildTimeAssetPath: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Blanket_1Type7_Cloth.obj
+  - fileID: 76
+    classID: 43
+    packedSize: 20576
+    offset: 13310392
+    sourceAssetGUID: aa989f862f222804bb6ac0c7b3f3f4ce
+    buildTimeAssetPath: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Decoration_1Type8_PLFull.obj
+  - fileID: 77
+    classID: 43
+    packedSize: 65676
+    offset: 13330968
+    sourceAssetGUID: aef52af31ff4feb429eb6b166f8ad08e
+    buildTimeAssetPath: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_DecorationExtras_1Type5_Cloth.obj
+  - fileID: 78
+    classID: 43
+    packedSize: 17620
+    offset: 13396648
+    sourceAssetGUID: b0bf1ab7761746c409b3d04b51b80f98
+    buildTimeAssetPath: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Blanket_1Type4_Cloth.obj
+  - fileID: 79
+    classID: 43
+    packedSize: 63772
+    offset: 13414272
+    sourceAssetGUID: b11cc6b94d53fef49b4f84dd04ff7725
+    buildTimeAssetPath: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_DecorationExtras_1Type8_Cloth.obj
+  - fileID: 80
+    classID: 43
+    packedSize: 20576
+    offset: 13478048
+    sourceAssetGUID: b2a06e15cf7aaf841b8b300cbbe51716
+    buildTimeAssetPath: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Decoration_1Type5_PLFull.obj
+  - fileID: 81
+    classID: 43
+    packedSize: 18460
+    offset: 13498624
+    sourceAssetGUID: b2a66386dc4cd4c4c8e4e819d8295a34
+    buildTimeAssetPath: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Blanket_1Type1_Cloth.obj
+  - fileID: 82
+    classID: 43
+    packedSize: 5320
+    offset: 13517088
+    sourceAssetGUID: b4aef953ad9c3e74383e3c8d84f058ec
+    buildTimeAssetPath: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Matress_1Type12_PLFull.obj
+  - fileID: 83
+    classID: 43
+    packedSize: 18348
+    offset: 13522408
+    sourceAssetGUID: b74c2996160de5f47ac5d7734e912b07
+    buildTimeAssetPath: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Blanket_1Type6_Cloth.obj
+  - fileID: 84
+    classID: 43
+    packedSize: 20576
+    offset: 13540760
+    sourceAssetGUID: b79cde124a033eb43ab157ca4ac37406
+    buildTimeAssetPath: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Decoration_1Type11_PLFull.obj
+  - fileID: 85
+    classID: 43
+    packedSize: 5320
+    offset: 13561336
+    sourceAssetGUID: b8e59a219db3e6d45a8213c55715cc19
+    buildTimeAssetPath: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Matress_1Type7_PLFull.obj
+  - fileID: 86
+    classID: 43
+    packedSize: 5208
+    offset: 13566656
+    sourceAssetGUID: bca1bf8337e57ef43b90e1023484aeba
+    buildTimeAssetPath: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Matress_1Type2_Cloth.obj
+  - fileID: 87
+    classID: 43
+    packedSize: 18404
+    offset: 13571864
+    sourceAssetGUID: bd5ef58f66e42c0478c3f28142a22fd7
+    buildTimeAssetPath: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Blanket_1Type9_PLFull.obj
+  - fileID: 88
+    classID: 43
+    packedSize: 64668
+    offset: 13590272
+    sourceAssetGUID: c114799da8e4c4f4cb79a91f3da6c890
+    buildTimeAssetPath: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_DecorationExtras_1Type7_PLFull.obj
+  - fileID: 89
+    classID: 43
+    packedSize: 18684
+    offset: 13654944
+    sourceAssetGUID: c7e31e79c9374ee4d87f64182972d21c
+    buildTimeAssetPath: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Blanket_1Type6_PLFull.obj
+  - fileID: 90
+    classID: 43
+    packedSize: 5320
+    offset: 13673632
+    sourceAssetGUID: c9cb0ca4885a3064db6b7668321d2395
+    buildTimeAssetPath: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Matress_1Type11_PLFull.obj
+  - fileID: 91
+    classID: 43
+    packedSize: 20688
+    offset: 13678952
+    sourceAssetGUID: cfdf877728c14cf45a4fe28464ca9c97
+    buildTimeAssetPath: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Decoration_1Type6_Cloth.obj
+  - fileID: 92
+    classID: 43
+    packedSize: 18404
+    offset: 13699640
+    sourceAssetGUID: d0815f2147d5b21439f98fe93a80b9e9
+    buildTimeAssetPath: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Blanket_1Type12_PLFull.obj
+  - fileID: 93
+    classID: 43
+    packedSize: 18404
+    offset: 13718048
+    sourceAssetGUID: d3c53b59d2a0d8145a0a7992e96825ee
+    buildTimeAssetPath: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Blanket_1Type13_PLFull.obj
+  - fileID: 94
+    classID: 43
+    packedSize: 18684
+    offset: 13736456
+    sourceAssetGUID: dfb57c412e1a5a9449266e48b0cf0c33
+    buildTimeAssetPath: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Blanket_1Type4_PLFull.obj
+  - fileID: 95
+    classID: 43
+    packedSize: 20688
+    offset: 13755144
+    sourceAssetGUID: e02e9776c5330bb46958767ee79831bc
+    buildTimeAssetPath: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Decoration_1Type3_Cloth.obj
+  - fileID: 96
+    classID: 43
+    packedSize: 5208
+    offset: 13775832
+    sourceAssetGUID: e49757ed92a45ea4c9d291c37422eb22
+    buildTimeAssetPath: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Matress_1Type6_Cloth.obj
+  - fileID: 97
+    classID: 43
+    packedSize: 5320
+    offset: 13781040
+    sourceAssetGUID: e58e27e93a5b2b64382603273f5dd559
+    buildTimeAssetPath: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Matress_1Type8_PLFull.obj
+  - fileID: 98
+    classID: 43
+    packedSize: 18684
+    offset: 13786360
+    sourceAssetGUID: e7f60817f22cc9e40a7209b70d239c14
+    buildTimeAssetPath: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Blanket_1Type2_PLFull.obj
+  - fileID: 99
+    classID: 43
+    packedSize: 17396
+    offset: 13805048
+    sourceAssetGUID: e9939188ce6627142b0f6677e1438032
+    buildTimeAssetPath: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Blanket_1Type8_Cloth.obj
+  - fileID: 100
+    classID: 43
+    packedSize: 5320
+    offset: 13822448
+    sourceAssetGUID: ea3ebe83a2eba9c4eb89d2a2be0b7c96
+    buildTimeAssetPath: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Matress_1Type1_PLFull.obj
+  - fileID: 101
+    classID: 43
+    packedSize: 64892
+    offset: 13827768
+    sourceAssetGUID: efd8ad82c610128488b3534bd27cbc4d
+    buildTimeAssetPath: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_DecorationExtras_1Type4_PLFull.obj
+  - fileID: 102
+    classID: 43
+    packedSize: 64948
+    offset: 13892664
+    sourceAssetGUID: f1430f4a4afb3e34db3d226c0176952d
+    buildTimeAssetPath: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_DecorationExtras_1Type1_Cloth.obj
+  - fileID: 103
+    classID: 43
+    packedSize: 20688
+    offset: 13957616
+    sourceAssetGUID: f272695adfa62cf458a768e1db2e5fe0
+    buildTimeAssetPath: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Decoration_1Type2_Cloth.obj
+  - fileID: 104
+    classID: 43
+    packedSize: 65340
+    offset: 13978304
+    sourceAssetGUID: f3aaa047eb1178240a489c23cfd4a44d
+    buildTimeAssetPath: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_DecorationExtras_1Type2_PLFull.obj
+  - fileID: 105
+    classID: 43
+    packedSize: 18684
+    offset: 14043648
+    sourceAssetGUID: f4c0c8674071ed54a8d5e0d10d015fed
+    buildTimeAssetPath: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Blanket_1Type1_PLFull.obj
+  - fileID: 106
+    classID: 43
+    packedSize: 18404
+    offset: 14062336
+    sourceAssetGUID: f8330d4a545c223478035bf45c8e4fbe
+    buildTimeAssetPath: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Blanket_1Type15_PLFull.obj
+  - fileID: 107
+    classID: 43
+    packedSize: 20688
+    offset: 14080744
+    sourceAssetGUID: fbdde2f24a5165446954189da0c56878
+    buildTimeAssetPath: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Decoration_1Type1_Cloth.obj
+  - fileID: 108
+    classID: 43
+    packedSize: 5320
+    offset: 14101432
+    sourceAssetGUID: fcb36bfe87d5af44c9f05b91cddcc95b
+    buildTimeAssetPath: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Matress_1Type14_PLFull.obj
+  - fileID: 109
+    classID: 43
+    packedSize: 64220
+    offset: 14106752
+    sourceAssetGUID: fdaf2b4855ccdfc41af61fac6c3199d1
+    buildTimeAssetPath: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_DecorationExtras_1Type13_PLFull.obj
+  - fileID: 110
+    classID: 43
+    packedSize: 64556
+    offset: 14170976
+    sourceAssetGUID: fea148643f3d7014e9a292c768d60311
+    buildTimeAssetPath: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_DecorationExtras_1Type3_Cloth.obj
+  - fileID: 111
+    classID: 48
+    packedSize: 538956
+    offset: 14235536
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 112
+    classID: 48
+    packedSize: 4744
+    offset: 14774496
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 113
+    classID: 48
+    packedSize: 4868
+    offset: 14779240
+    sourceAssetGUID: 693137b858e4dc64c83be531351f45e6
+    buildTimeAssetPath: Assets/VRCSDK/Sample Assets/Shaders/Mirror.shader
+  - fileID: 114
+    classID: 89
+    packedSize: 131424
+    offset: 14784112
+    sourceAssetGUID: 618bd6653c79b064699ab953ecf225fd
+    buildTimeAssetPath: Assets/Scenes/basic/basic/ReflectionProbe-0.exr
+  - fileID: 115
+    classID: 89
+    packedSize: 1573052
+    offset: 14915536
+    sourceAssetGUID: e60c8653c33d3da4d8f660c15214d3ac
+    buildTimeAssetPath: Assets/Fantasy Skybox FREE/Materials/Classic/FS000_Night_02.png
+  - fileID: 116
+    classID: 115
+    packedSize: 96
+    offset: 77632
+    sourceAssetGUID: 4ecd63eff847044b68db9453ce219299
+    buildTimeAssetPath: Assets/VRCSDK/Plugins/VRCCore-Editor.dll
+  - fileID: 117
+    classID: 115
+    packedSize: 108
+    offset: 77728
+    sourceAssetGUID: 661092b4961be7145bfbe56e1e62337b
+    buildTimeAssetPath: Assets/VRCSDK/Plugins/VRCSDK3.dll
+  - fileID: 118
+    classID: 115
+    packedSize: 108
+    offset: 77840
+    sourceAssetGUID: 661092b4961be7145bfbe56e1e62337b
+    buildTimeAssetPath: Assets/VRCSDK/Plugins/VRCSDK3.dll
+  - fileID: 119
+    classID: 115
+    packedSize: 104
+    offset: 77952
+    sourceAssetGUID: 1bd5b4c54e111e240aa7b6088078e1f9
+    buildTimeAssetPath: Assets/Customizable_Furnture/Source/Scripts/DisplaySelectedObject.cs
+  - fileID: 120
+    classID: 115
+    packedSize: 88
+    offset: 78056
+    sourceAssetGUID: 45115577ef41a5b4ca741ed302693907
+    buildTimeAssetPath: Assets/Udon/UdonBehaviour.cs
+  - fileID: 121
+    classID: 115
+    packedSize: 128
+    offset: 78144
+    sourceAssetGUID: bf61d954ecb803046953c666facfb904
+    buildTimeAssetPath: Assets/Udon/ProgramSources/SerializedUdonProgramAsset.cs
+  - fileID: 122
+    classID: 115
+    packedSize: 88
+    offset: 78272
+    sourceAssetGUID: da66153f22c16b54f9c25bad691ef058
+    buildTimeAssetPath: Assets/Customizable_Furnture/Source/Scripts/OptionsDisplay.cs
+  - fileID: 123
+    classID: 258
+    packedSize: 40
+    offset: 16488592
+    sourceAssetGUID: 3152ea8bd89f56e429b0e8807c79e6b0
+    buildTimeAssetPath: Assets/Scenes/basic/basic/LightingData.asset
+  - fileID: 124
+    classID: 114
+    packedSize: 17956
+    offset: 16488632
+    sourceAssetGUID: 29a0fe9a023c79f43a05b94efa92c481
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/6e3239c8f0b9ad1459ea0986fe9cccd9.asset
+  - fileID: 125
+    classID: 114
+    packedSize: 17068
+    offset: 16506592
+    sourceAssetGUID: 4b37d322b6a0e9e49a0e0ed9444a7f2c
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/c8df303ceb45ae84f85a11591f741734.asset
+--- !u!382020655 &8467861471045523258
+PluginBuildInfo:
+  m_RuntimePlugins:
+  - OVRPlugin
+  - VRC.Udon.ClientBindings
+  - openvr_api
+  - portmidi
+  - VRC.Udon.VRCWrapperModules
+  - VRCSDK3
+  - VRC.Udon.VM
+  - nunit.framework
+  - librsync.net
+  - VRC.Udon.Common
+  - Collections.Pooled
+  - System.Collections.Immutable
+  - System.Numerics.Vectors
+  - System.Buffers
+  - VRC.Udon.Wrapper
+  - VRC.Udon.Security
+  - clipper_library
+  - VRCSDKBase
+  - System.Runtime.CompilerServices.Unsafe
+  - libopenvr_api
+  - Blake2Sharp
+  - System.Memory
+  - VRCCore-Editor
+  - AudioPluginOculusSpatializer
+  m_EditorPlugins:
+  - VRCSDK3-Editor
+  - Microsoft.CodeAnalysis
+  - VRC.Udon.VRCTypeResolverModules
+  - AppleEventIntegration
+  - liblz4Plastic
+  - Unity.Plastic.Newtonsoft.Json
+  - unityplastic
+  - VRC.Udon.Compiler
+  - System.Reflection.Metadata
+  - Microsoft.CodeAnalysis.CSharp
+  - VRC.Udon.UAssembly
+  - VRC.Udon.Graph
+  - UnityEditor.VR
+  - 0Harmony
+  - VRCSDKBase-Editor
+  - VRC.Udon.VRCGraphModules
+  - log4netPlastic
+  - VRC.Udon.EditorBindings
+  - zlib64Plastic
+  - Unity.Plastic.Antlr3.Runtime
+  - lz4x64Plastic

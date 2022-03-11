@@ -6,24 +6,37 @@ using UnityEngine.UI;
 public class Test : MonoBehaviour
 {
 
-    [SerializeField] private Text txt_money;
-    [SerializeField] private InputField input_money;
+    private float createTime = 1f;
+    private float currentTcrateTime;
+
+    [SerializeField] private GameObject go_BulletPrefab;
 
 
-    private int account;
-
-    public void deposit()
+    private void Update()
     {
-        account += int.Parse(input_money.text);
 
-        txt_money.text = account.ToString();
+        Collider[] col = Physics.OverlapSphere(transform.position, 5f);
+
+        if (col.Length > 0)
+        {
+            for (int i = 0; i < col.Length; i++)
+            {
+                Transform tf_target = col[i].transform;
+
+                if (tf_target.tag == "Player")
+                {
+                    transform.rotation = Quaternion.LookRotation(tf_target.position - transform.position);
+                    currentTcrateTime += Time.deltaTime;
+
+                    if (currentTcrateTime >= createTime)
+                    {
+                        GameObject _temp = Instantiate(go_BulletPrefab, transform.position, transform.rotation);
+                        Physics.IgnoreCollision(_temp.GetComponent<Collider>(), tf_target.GetComponent<Collider>());
+                        currentTcrateTime = 0;
+                    }
+                }
+            }
+        }
     }
-
-    public void withdraw()
-    {
-        account -= int.Parse(input_money.text);
-
-        txt_money.text = account.ToString();
-    }
-
 }
+
